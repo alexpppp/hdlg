@@ -76,12 +76,27 @@ img{
 }
 
 /* =====================================
-   	2. COLOR PALETTE.
+     2. COLOR PALETTE.
+     
+     ARCHIVE
+     :root {
+  --main-green-color: #3E755F;
+  --main-yellow-color: #EEC344;  
+  --main-dark-color: #333333;  
+  --main-text-color: #737373;  
+  --lg-margin-top: 2rem;    
+  --md-margin-top: 2rem;    
+  --sm-margin-top: 2rem; 
+  --col-lg-m: 2rem;    
+  --col-md-m: 2rem;    
+  --col-sm-m: 2rem;  
+  --col-left-padding: 2rem;    
+}
    ===================================== */
 
 :root {
-  --main-green-color: #3E755F;
-  --main-yellow-color: #EEC344;  
+  --main-green-color: #0F7337;
+  --main-yellow-color: #39B8E0;  
   --main-dark-color: #333333;  
   --main-text-color: #737373;  
   --lg-margin-top: 2rem;    
