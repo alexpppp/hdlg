@@ -254,13 +254,18 @@ a:hover {
     margin: 4px 2px; 
 } 
 .button:hover { 
-    background-color: var(--main-green-color);
+    background-color: #285c2c;
     color: #FFF; 
 }
 
 .btn-white{
   background-color: #FFF;
   color: #333;
+}
+
+.btn-green{
+  background-color: #0F7337;
+  color: #fff;
 }
 
 .btn-md{
