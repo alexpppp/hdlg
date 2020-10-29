@@ -4082,13 +4082,6 @@ section.pricing-plans {
     color: var(--main-dark-color);
   }
 
-  .thumbnail-box-caption h5::after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f30b";
-    margin-left: 10px;
-  }
-
   .thumbnail-box-caption p {
     color: #333;
   }
@@ -4272,13 +4265,10 @@ section.pricing-plans {
 
   .contact-box-alt-info {
     position: relative;
-    margin-left: 2rem;
-    margin-top: 2rem;
   }
 
   .contact-box-alt-info .media {
     margin-right: 20px;
-    width: 33%;
   }
 
   .contact-box-alt-info .media .fas {
