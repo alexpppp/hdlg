@@ -212,6 +212,11 @@
     text-align: right;
   }
 
+  #facebook-icon {
+    font-size: 20px;
+    color: white;
+  }
+
   .footer-logo {
     width: 160px;
   }
