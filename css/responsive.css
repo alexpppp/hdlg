@@ -187,7 +187,7 @@
 
     .home-slider,
     .hero-slider {
-        height: 768px;
+        /* height: 768px; */
     }
 
     .ag-home-about {
@@ -347,7 +347,7 @@
 
     .home-slider,
     .hero-slider {
-        height: 700px;
+        /* height: 700px; */
     }
 
     .ag-carousel .owl-carousel .item {
