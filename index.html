@@ -32,8 +32,22 @@
 
         <!-- MODERNIZR LIBRARY -->
         <script src="js/modernizr-custom.js"></script>
+
+        <!-- RANDOM HERO-IMAGE SCRIPT -->
+        <script>
+            var images = [
+                'images/common/cow-landscape.jpg',
+                'images/common/hurunui-inland.jpg',
+                'images/common/waipara-coastal.jpg'
+            ]
+            var randomImage = images[Math.floor(Math.random() * images.length)]
+            function setRandomImage() {
+                var target = document.getElementById('slider-image')
+                target.setAttribute("style", "background-image:url(" + randomImage + ");")
+            }
+        </script>
 	</head>
-<body>
+<body onload="setRandomImage()">
     <header>
         <!-- NAV START -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -61,7 +75,7 @@
         <div class="home-slider">
             <!-- partial:index.partial.html -->
             <div class="hero-slider" data-carousel>
-                <div class="carousel-cell" style="background-image:url(images/common/cow-landscape.jpg);">
+                <div id="slider-image" class="carousel-cell" style="background-image:url(images/common/cow-landscape.jpg);">
                     <div class="overlay"></div>
                     <div class="container slider-caption">
                         <h2 class="title"><span class="color-text">Huruni</span> District<br> Landcare <span class="color-text">Group</span></h2>
