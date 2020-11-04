@@ -3660,6 +3660,10 @@ section.pricing-plans {
     font-weight: 400;
     text-transform: uppercase;
   }
+  
+  .bullets-container {
+    margin-left: 2rem;
+  }
 
   .bullets h4 {
     font-size: 18px;
@@ -3691,7 +3695,10 @@ section.pricing-plans {
     font-weight: 900;
     content: "\f14a";
     margin-right: 15px;
+    margin-left: 2rem;
     color: var(--main-green-color);
+    position: absolute;
+    left: -1em;
   }
 
   .section-btn {
