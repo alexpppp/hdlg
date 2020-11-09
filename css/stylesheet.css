@@ -58,16 +58,29 @@
 /*====================================================
     2. HEADER. 
   ====================================================*/
+.bg-white {
+    background-color: #fff!important;
+    color: var(--main-dark-color);
+    box-shadow: 0 0 3px rgba(53, 64, 78, 0.2);
+}
+
+.navbar.fixed-top.navbar-dark .navbar-nav .nav-link {
+  color: var(--main-dark-color);
+}
+
+
   .navbar .navbar-brand {
     width: 180px;
 }
 
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: var(--main-dark-color);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--main-dark-color);
 }
   /*====================================================
     3. MAIN SLIDER. 
