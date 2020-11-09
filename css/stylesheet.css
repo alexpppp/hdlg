@@ -4089,12 +4089,12 @@ section.pricing-plans {
   }
 
   .thumbnail-box-caption h5 a {
-    color: var(--main-green-color);
+    color: var(--main-dark-color);
     transition: 0.4s;
   }
 
   .thumbnail-box-caption h5 a:hover {
-    color: var(--main-dark-color);
+    color: var(--main-green-color);
   }
 
   .thumbnail-box-caption p {
