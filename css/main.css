@@ -178,14 +178,14 @@ ul{
 }
 
 a {
-    color: var(--main-dark-color);
+    color: var(--main-green-color);
     text-decoration: none;
     transition: 0.3s;
 }
 
 a:hover {
 	  color: var(--main-green-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /*====================================================
