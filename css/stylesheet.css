@@ -206,6 +206,15 @@
   .color-text {
     color: var(--main-yellow-color);
   }
+
+  #bottom-right-label {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7)
+  }
   /*====================================================
     4. FOOTER. 
   ====================================================*/

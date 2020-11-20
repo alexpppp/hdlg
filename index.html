@@ -40,14 +40,21 @@
                 'images/common/hurunui-inland.jpg',
                 'images/common/waipara-coastal.jpg'
             ]
-            var randomImage = images[Math.floor(Math.random() * images.length)]
-            function setRandomImage() {
+            var labels = [
+                '1. Cow Landscape',
+                'Glenafric',
+                'Island Hills Station'
+            ]
+            function setRandomImageAndLabel() {
+                var randomInt = Math.floor(Math.random() * images.length)
                 var target = document.getElementById('slider-image')
-                target.setAttribute("style", "background-image:url(" + randomImage + ");")
+                target.setAttribute("style", "background-image:url(" + images[randomInt] + ");")
+                var label = document.getElementById('bottom-right-label')
+                label.innerHTML = labels[randomInt]
             }
         </script>
 	</head>
-<body onload="setRandomImage()">
+<body onload="setRandomImageAndLabel()">
     <header>
         <!-- NAV START -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -82,6 +89,7 @@
                         <h2 class="title"><span class="color-text">Hurunui</span> District<br> Landcare <span class="color-text">Group</span></h2>
                         <h5 class="subtitle">Supporting farmers in the Hurunui</h5>
                     </div>
+                    <div id="bottom-right-label"></div>
                 </div>
             </div>
             <!-- partial -->
