@@ -213,6 +213,7 @@
     bottom: 8px;
     right: 16px;
     font-size: 0.8rem;
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.7)
   }
   /*====================================================
@@ -3720,13 +3721,12 @@ section.pricing-plans {
     font-weight: 400;
     font-size: 15px;
     line-height: 2;
-    font-style: italic;
   }
 
   .bullets ul li::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: "\f14a";
+    content: "\f058";
     margin-right: 15px;
     margin-left: 2rem;
     color: var(--main-green-color);
