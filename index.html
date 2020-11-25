@@ -1,53 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
-	<head>
-		<meta charset="UTF-8">
+    <head>
+	    <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
-		<!-- TITLE -->
-        <title>Hurunui District Landcare Group</title>
-        <meta name="description" content="The Hurunui District Landcare Group is a farmer-led, farmer-driven initiative which takes a proactive and collaborative approach to managing, protecting and enhancing the natural and physical resources both on-farm and within North Canterbury's unique catchment communities.">
-        <meta name="keywords" content="hurunui district landcare group, Hurunui, catchment group, farming, environmental planning, good farming practise, on farm good practise, farm environment plans, farm groups">
-        
-        <!-- FONT AWESOME ICONS LIBRARY -->
-        <link rel="stylesheet" href="fonts/css/all.min.css">  
-        
-        <!--  FAVICON  -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="shortcut icon" href="images/favicon.png">
 
-        <!-- CSS LIBRARY STYLES -->
+        <title>Hurunui District Landcare Group</title>
+        <meta name="description" content="The Hurunui District Landcare Group is a farmer-led, farmer-driven initiative
+                                         which takes a proactive and collaborative approach to managing, protecting and 
+                                         enhancing the natural and physical resources both on-farm and within North 
+                                         Canterbury's unique catchment communities.">
+        <meta name="keywords" content="hurunui district landcare group, Hurunui, catchment group, farming, environmental 
+                                        planning, good farming practise, on farm good practise, farm environment plans, farm groups">
+
+        <!-- INCLUDES -->
+        <link rel="stylesheet" href="fonts/css/fontawesome.min.css">
         <link rel="stylesheet" href="css/lib/bootstrap.min.css">
-        <link rel='stylesheet' href="css/lib/navbar.css">
 
         <!-- CSS TEMPLATE STYLES -->
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/theme.css">
         <link rel="stylesheet" href="css/responsive.css">
 
         <!-- MODERNIZR LIBRARY -->
         <script src="js/lib/modernizr-custom.js"></script>
-
-        <!-- GENERATE RANDOM HERO IMAGE -->
-        <script>
-            var images = ['images/common/cow-landscape.jpg','images/common/hurunui-inland.jpg','images/common/waipara-coastal.jpg']
-            var labels = ['Brandon Downs, Mason Flat','Island Hills, Culverden','Glenafric, Waipara']
-            
-            function setRandomImageAndLabel() {
-                var randomInt = Math.floor(Math.random() * images.length)
-                var target = document.getElementById('slider-image')
-                target.setAttribute("style", "background-image:url(" + images[randomInt] + ");")
-                var label = document.getElementById('bottom-right-label')
-                label.innerHTML = labels[randomInt]
-            }
-        </script>
-	</head>
-<body onload="setRandomImageAndLabel()">
+    </head>
+<body>
     <header>
         <!-- NAV START -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container p-0">
-                <a href="index.html" class="navbar-brand"><img src="images/logos/logo.png" alt=""></a>
+                <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
                 <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
                     <span class="menu-icon-bar"></span>
                     <span class="menu-icon-bar"></span>
@@ -64,20 +48,20 @@
         </nav>
         <!-- NAV END -->
 
-        <!--SLIDER START-->
+        <!--HERO START-->
         <div class="home-slider">
             <div class="hero-slider" data-carousel>
-                <div id="slider-image" class="carousel-cell" style="">
+                <div id="slider-image" class="carousel-cell">
                     <div class="overlay"></div>
                         <div class="container slider-caption">
-                            <h2 class="title"><span class="color-text">Hurunui</span> District<br> Landcare <span class="color-text">Group</span></h2>
+                            <h1 class="title"><span class="color-text">Hurunui</span> District<br> Landcare <span class="color-text">Group</span></h1>
                             <h5 class="subtitle">Supporting farmers in the Hurunui</h5>
                         </div>
                     <div id="bottom-right-label"></div>
                 </div>
             </div>
         </div>
-        <!--SLIDER END-->
+        <!--HERO END-->
     </header>
 
     <!-- CONTENT START -->
@@ -88,25 +72,35 @@
                 <div class="col-lg-6"> 
                     <div class="ag-home-about">
                         <h2>Farming For The <span class="light-text">Future</span></h2>
-                        <p><strong>The Hurunui District Landcare Group is a farmer-led, farmer-driven initiative which takes a proactive and collaborative approach to managing, protecting and enhancing the natural and physical resources both on-farm and within North Canterbury's unique catchment communities.</strong></p>
-                        <p> The group has three catchment farm advisors whose role is to:</p>
+                        <p><strong>
+                            The Hurunui District Landcare Group is a farmer-led, farmer-driven initiative which takes
+                             a proactive and collaborative approach to managing, protecting and enhancing the natural and 
+                             physical resources both on-farm and within North Canterbury's unique catchment communities.
+                        </strong></p>
+                        <p>The group has three catchment farm advisors whose role is to:</p>
                         <div class="bullets-container">
                             <div class="bullets">
                                 <ul class="left-list">
-                                    <li>Lift farmers' understanding of the environmental challenges and opportunities for their property and community</li>
-                                    <li>Provide expert advice which supports farmers through changing environmental regulations and assist farmers to develop Farm Environment Plans for their properties</li>
-                                    <li>Identify opportunities to introduce Technical Experts who can run topic-specific workshops (e.g. integrating forestry into a farming operation)</li>
-                                    <li>Support farm ‘clusters’ to address localised issues and help drive change at the community level</li>
+                                    <li>Lift farmers' understanding of the environmental challenges and opportunities for
+                                         their property and community</li>
+                                    <li>Provide expert advice which supports farmers through changing environmental regulations
+                                         and assist farmers to develop Farm Environment Plans for their properties</li>
+                                    <li>Identify opportunities to introduce Technical Experts who can run topic-specific
+                                         workshops (e.g. integrating forestry into a farming operation)</li>
+                                    <li>Support farm ‘clusters’ to address localised issues and help drive change at the
+                                         community level</li>
                                     <li>Highlight the available funding frameworks to support on-farm environmental work</li>
                                 </ul>
-                                <p>All farmers in the Hurunui District are welcome to join HDLG. <strong><a href="mailto:admin@hurunuilandcaregroup.co.nz">Contact us</a></strong> today to join.</p>
                             </div>
                         </div>
+                            <p>All farmers in the Hurunui District are welcome to join HDLG. 
+                                <strong><a href="mailto:admin@hurunuilandcaregroup.co.nz">Contact us</a></strong> today to
+                                 join.</p>
                     </div>
                 </div> 
                 <div class="col-lg-6 col-mt-lg d-flex flex-column justify-content-center"> 
                     <figure class="ag-home-about-img">
-                        <img src="images/common/advisor.jpg" alt="">
+                        <img src="images/advisor.jpg" alt="Hurunui catchment farm advisor">
                     </figure>
                 </div> 
             </div>
@@ -126,11 +120,16 @@
                         <div class="item">
                             <div class="thumbnail-box">
                                 <figure class="thumbnail-box-img">
-                                    <img src="images/common/rebecca.JPG" alt="">
+                                    <img src="images/rebecca.JPG" alt="farm advisor profile">
                                 </figure>
                                 <div class="thumbnail-box-caption">
                                     <h3>Rebecca Hyde</h3>
-                                    <p>Rebecca was born and bred on a farm in North Canterbury’s Scargill Valley. She understands farming, farmers and the unique climatic and environmental challenges and opportunities the region’s food producers face.   The Nuffield Scholar, who specializes in current and future farm systems and resource and nutrient management, enjoys empowering catchments to work together to improve their natural resources while building resilient communities.</p>
+                                    <p>Rebecca was born and bred on a farm in North Canterbury’s Scargill Valley. She
+                                         understands farming, farmers and the unique climatic and environmental challenges
+                                          and opportunities the region’s food producers face. The Nuffield Scholar, who
+                                           specializes in current and future farm systems and resource and nutrient 
+                                           management, enjoys empowering catchments to work together to improve their 
+                                           natural resources while building resilient communities.</p>
                                     <div class="contact-box-alt-info">
                                         <div class="media mb-2">
                                             <i class="fas fa-phone-alt"></i>
@@ -141,7 +140,9 @@
                                         <div class="media mb-0">
                                             <i class="fas fa-envelope"></i>
                                             <div class="media-body">
-                                                <p class="mt-1"><a href="mailto:rebecca@hurunuilandcaregroup.co.nz">rebecca@&#8203;hurunuilandcaregroup.co.nz</a></p>
+                                                <p class="mt-1"><a href="mailto:rebecca@hurunuilandcaregroup.co.nz">
+                                                    rebecca@hurunuilandcaregroup.co.nz
+                                                </a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -153,11 +154,16 @@
                         <div class="item">
                             <div class="thumbnail-box">
                                 <figure class="thumbnail-box-img">
-                                    <img src="images/common/john.JPG" alt="">
+                                    <img src="images/john.JPG" alt="farm advisor profile">
                                 </figure>
                                 <div class="thumbnail-box-caption">
                                     <h3>John Holmes</h3>
-                                    <p>Originally from a farming background in Mid-Canterbury, John is passionate about New Zealand’s agricultural industry. With 25 years farming experience, coupled with industry roles with Beef + Lamb New Zealand and Ravensdown (Environmental), John is eager to help farmers capture any available opportunities within the changing regulatory landscape while making their businesses and communities more robust and sustainable.</p>
+                                    <p>Originally from a farming background in Mid-Canterbury, John is passionate about 
+                                        New Zealand’s agricultural industry. With 25 years farming experience, coupled 
+                                        with industry roles with Beef + Lamb New Zealand and Ravensdown (Environmental), 
+                                        John is eager to help farmers capture any available opportunities within the 
+                                        changing regulatory landscape while making their businesses and communities more 
+                                        robust and sustainable.</p>
                                     <div class="contact-box-alt-info">
                                         <div class="media mb-2">
                                             <i class="fas fa-phone-alt"></i>
@@ -168,7 +174,9 @@
                                         <div class="media mb-0">
                                             <i class="fas fa-envelope"></i>
                                             <div class="media-body">
-                                                <p class="mt-1"><a href="mailto:john@hurunuilandcaregroup.co.nz">john@&#8203;hurunuilandcaregroup.co.nz</a></p>
+                                                <p class="mt-1"><a href="mailto:john@hurunuilandcaregroup.co.nz">
+                                                    john@hurunuilandcaregroup.co.nz
+                                                </a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,11 +188,16 @@
                         <div class="item">
                             <div class="thumbnail-box">
                                 <figure class="thumbnail-box-img">
-                                    <img src="images/common/harry.JPG" alt="">
+                                    <img src="images/harry.JPG" alt="farm advisor profile">
                                 </figure>
                                 <div class="thumbnail-box-caption">
                                     <h3>Harry Millar</h3>
-                                    <p>Harry grew up on a high-country station up the Ashburton gorge before the family moved to a sheep, beef and deer property in Peel Forest. After completing an Arts degree, Harry travelled to the UK to play semi-professional rugby. Returning home, he worked as a fencing contractor before joining Environment Canterbury as a Land Management Advisor. Harry is looking forward to supporting farmers and helping them navigate changing regulatory expectations.</p>
+                                    <p>Harry grew up on a high-country station up the Ashburton gorge before the family
+                                         moved to a sheep, beef and deer property in Peel Forest. After completing an Arts 
+                                         degree, Harry travelled to the UK to play semi-professional rugby. Returning home, 
+                                         he worked as a fencing contractor before joining Environment Canterbury as a Land 
+                                         Management Advisor. Harry is looking forward to supporting farmers and helping 
+                                         them navigate changing regulatory expectations.</p>
                                     <div class="contact-box-alt-info">
                                         <div class="media mb-2">
                                             <i class="fas fa-phone-alt"></i>
@@ -195,7 +208,9 @@
                                         <div class="media mb-0">
                                             <i class="fas fa-envelope"></i>
                                             <div class="media-body">
-                                                <p class="mt-1"><a href="mailto:harry@hurunuilandcaregroup.co.nz">harry@&#8203;hurunuilandcaregroup.co.nz</a></p>
+                                                <p class="mt-1"><a href="mailto:harry@hurunuilandcaregroup.co.nz">
+                                                    harry@hurunuilandcaregroup.co.nz
+                                                </a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -214,17 +229,40 @@
                 <div class="col-md-10">
                     <div class="product-information">
                         <figure class="product-feauture">
-                            <img src="images/common/waipara_about.jpg" alt="">
+                            <img src="images/waipara_about.jpg">
                         </figure>
                         <div class="product-details ag-home-about">
                             <div class="layer-title">
                                 <h2>About <span class="light-text">HDLG</span></h2>
                             </div>
-                            <p><strong>Established in 2016, the Hurunui District Landcare Group is a catchment group of approx. 140, predominantly dryland sheep and beef farmers from within the Hurunui District. The group is run as an incorporated society with an aim of promoting on farm good practise.</strong></p>
-                            <p>Since its inception, HDLG has facilitated the development of Farm Environment Plans (FEP) for its members' farms, and assisted in getting Plan Change 1 (PC1) approved in the Hurunui Waiau River Regional Plan (HWRRP), which will enable “dryland” farming to be a permitted activity. It has also partnered with Environment Canterbury to develop and deliver the first Hill Country Erosion programme in Canterbury since the end of the Catchment Boards.</p>
-                            <p>Recently, HDLG has been successful in two of its applications for funding. "Future Hurunui" is a farmer-led, farmer focused project, funded by the Ministry for Primary Industries, aimed at supporting farmers in the Hurunui District as they strive to build environmental, economic and socially sustainable farm businesses within their catchment communities.</p>
-                            <p>HDLG has also been granted funding through One Billion Trees, led by Te Uru Rākau, to run a <strong>Catchment Planting Programme</strong>. This programme will boost native biodiversity and regeneration throughout the Hurunui District with 65 hectares of native biodiversity planting and 15.5 hectares (17km) of riparian planting.</p>
-                            <p>Membership is open to all farmers located within the Hurunui District. <strong><a href="mailto:admin@hurunuilandcaregroup.co.nz">Contact us</a></strong> today to join.</p>
+                            <p>
+                                <strong>Established in 2016, the Hurunui District Landcare Group is an independent catchment 
+                                group of approx. 140, predominantly dryland sheep and beef farmers from within the Hurunui 
+                                District. The group is run as an incorporated society with an aim of promoting on farm good 
+                                practise.</strong>
+                            </p>
+                            <p>
+                                Since its inception, HDLG has facilitated the development of Farm Environment Plans (FEP) 
+                                for its members' farms, and assisted in getting Plan Change 1 (PC1) approved in the Hurunui 
+                                Waiau River Regional Plan (HWRRP), which will enable “dryland” farming to be a permitted 
+                                activity. It has also partnered with Environment Canterbury to develop and deliver the 
+                                first Hill Country Erosion programme in Canterbury since the end of the Catchment Boards.
+                            </p>
+                            <p>
+                                Recently, HDLG has been successful in two of its applications for funding. "Future Hurunui" 
+                                is a farmer-led, farmer focused project, funded by the Ministry for Primary Industries, 
+                                aimed at supporting farmers in the Hurunui District as they strive to build environmental, 
+                                economic and socially sustainable farm businesses within their catchment communities.
+                            </p>
+                            <p>
+                                HDLG has also been granted funding through One Billion Trees, led by Te Uru Rākau, to run 
+                                a <strong>Catchment Planting Programme</strong>. This programme will boost native 
+                                biodiversity and regeneration throughout the Hurunui District with 65 hectares of native 
+                                biodiversity planting and 15.5 hectares (17km) of riparian planting.
+                            </p>
+                            <p>Membership is open to all farmers located within the Hurunui District. 
+                                <strong><a href="mailto:admin@hurunuilandcaregroup.co.nz">Contact us</a></strong> today to join.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -240,32 +278,32 @@
                 </div>
                 <div class="row">
                     <div class="land col-lg-4 mb-3">
-                            <img src="http://placehold.it/992x662" alt="" />
+                            <img src=""/>
                     </div>
                     <div class="land farm col-lg-4 mb-3">
                             <div class="image-mask"></div>
-                            <img src="http://placehold.it/992x662" alt="" />
+                            <img src=""/>
                     </div>
                     <div class="equipment col-lg-4 mb-3">
                             <div class="image-mask"></div>
-                            <img src="http://placehold.it/992x662" alt="" />
+                            <img src=""/>
                     </div>
                     <div class="farm col-lg-4 mb-3">
                             <div class="image-mask"></div>
-                            <img src="http://placehold.it/992x662" alt="" />
+                            <img src=""/>
                     </div>
                     <div class="land col-lg-4 mb-3">
                             <div class="image-mask"></div>
-                            <img src="http://placehold.it/992x662" alt="" />
+                            <img src=""/>
                     </div>
                     <div class="land farm col-lg-4 mb-3">
                             <div class="image-mask"></div>
-                            <img src="http://placehold.it/992x662" alt="" />
+                            <img src=""/>
                     </div>
                 </div>
             </div>
         </div>
-    PROJECT GRID END --> 
+        <!-- PROJECT GRID END --> 
     </section> 
     <!-- CONTENT END -->
     
@@ -289,17 +327,15 @@
             <hr class="hr-divider">
             <div class="bottom-footer">
                 <div class="copyright">
-                    <p>© 2020 Hurunui District Landcare Group</p>
+                    <p>&copy; <span id="year">2020</span> Hurunui District Landcare Group</p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- FOOTER END -->
     
-    <!-- JAVASCRIPT -->
     <script src='js/lib/jquery-3.5.1.min.js'></script>
     <script src='js/lib/bootstrap.min.js'></script>
-    <script src='js/lib/nav-fixed-top.js'></script>
-    <!-- JAVASCRIPT END -->
+    <script src='js/lib/main.js'></script>
 </body>
 </html>

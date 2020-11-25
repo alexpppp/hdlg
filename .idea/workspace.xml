@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f302d21f-6d4f-40e4-a0a5-9806351a7fc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lib/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/css/fontawesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/advisor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/cow-landscape.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/harry.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/hurunui-inland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/john.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/rebecca.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/waipara-coastal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/common/waipara_about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logos/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lib/nav-fixed-top.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kj3Tns4GW4jqSQqz6Yu9AAApta" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/fonts/css/all.css" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f302d21f-6d4f-40e4-a0a5-9806351a7fc8" name="Default Changelist" comment="" />
+      <created>1606200196612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606200196612</updated>
+      <workItem from="1606200211829" duration="554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1710" y="23" width="1321" height="959" key="DiffContextDialog" timestamp="1606210233517">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1710" y="23" width="1321" height="959" key="DiffContextDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606210233517" />
+  </component>
+</project>

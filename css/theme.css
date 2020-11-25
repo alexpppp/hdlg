@@ -1477,7 +1477,7 @@
     14. 404 ERROR PAGE. 
   ====================================================*/
   .error-page {
-    background-image: url("../images/common/hurunui-inland.jpg");
+    background-image: url("../images/hurunui-inland.jpg");
     height: 900px;
     background-position: center;
     background-repeat: no-repeat;
@@ -4308,7 +4308,7 @@ section.pricing-plans {
   }
 
   .contact-box-alt-info .media {
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 
   .contact-box-alt-info .media .fas {
@@ -4328,6 +4328,7 @@ section.pricing-plans {
   .contact-box-alt-info .media .media-body p {
     font-size: 13px;
     line-height: 1.4;
+    word-break: break-word;
   }
 
 

@@ -35,3 +35,26 @@ $(window).on("load resize", function() {
   }
 });
 
+var heroContent = [
+  ['cow-landscape.jpg', 'Brandon Downs, Mason Flat' ],
+  ['hurunui-inland.jpg', 'Island Hills, Culverden'],
+  ['waipara-coastal.jpg', 'Glenafric, Waipara']
+]
+
+function setRandomImageAndLabel() {
+    var randomInt = Math.floor(Math.random() * heroContent.length)
+    var target = document.getElementById('slider-image')
+    target.setAttribute("style", "background-image:url(images/" + heroContent[randomInt][0] + ");")
+    var label = document.getElementById('bottom-right-label')
+    label.innerHTML = heroContent[randomInt][1]
+}
+
+function setYear() {
+    var date = new Date()
+    document.getElementById('year').innerHTML = $date.getFullYear
+}
+
+$(document).ready(function () {
+  setRandomImageAndLabel()
+    setYear()
+})
